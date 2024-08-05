@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        HOME PAGE FOR THE FARMHOUSE KITCHEN WEBSITE
+        Author: Robin Johnson
+        Date: 5/4/23
+    -->
+    
+    <!--REQUIRED: metadata - title, 4/10/23-->
+    <meta name="title" content="Farmhouse Kitchen: Home Page">
+    <!--REQUIRED: metadata - viewport, 4/10/23-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--REQUIRED: metadata - keywords, 4/10/23-->
+    <meta name="keywords" content="antiques, kitchenware">
+    <!--REQUIRED: metadata - description, 4/10/23-->
+    <meta name="description" content="home page for Farmhouse Kitchen, 
+                                      providing navigation to the other 
+                                      pages">
+    <!--REQUIRED: metadata - author, 4/10/23-->
+    <meta name="author" content="Robin Johnson">
+    <meta charset="UTF-8">
+    
+    <!--REQUIRED: reset styles, 4/10/23-->
+    <link rel="stylesheet" href="resetSS.css">
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="navStyles.css">
+    <link rel="stylesheet" href="indexSS.css">
+    <title>Farmhouse Kitchen: Home</title>
+</head>
+
+<body>
+    <div id="page-container">
+        
+        <header>
+            <!-- COPY AND PASTE THIS SECTION TO ALL OTHER PAGES (after validating) -->
+            <div id="title-and-tag">
+                <h1 id="title">Farmhouse Kitchen</h1>
+                <p id="tagline">"Teapots, Trinkets, and Treasures from our Rural Past"</p>
+            </div>
+            <!-- SECTION END -->
+            
+            <div class="dropdown-menu">
+                <nav>
+                    <button class="dropdown-button"><img src="Images/menu_button.png" alt="Open navigation menu"></button>
+                    <ul class="dropdown-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="antiques.html">Antiques</a></li>
+                        <li id="image-item"><img id="teapot" src="Images/Logo.png" alt="a teapot"></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+        
+        <main>
+            <div id="hero-image">
+                <article id="call-to-action">
+                    <h2>Keep a piece of history.</h2>
+                    <a class="button" href="antiques.html">View our antiques</a>
+                </article>
+            </div>
+
+            <div id="flex-area">
+
+                <article>
+                    <h2>Who are we?</h2>
+                    <p>Farmhouse Kitchen is a small business selling antique kitchenware items at affordable prices. 
+                        <!--REQUIRED: text-level element (wbr) (1/5), 5/7/23-->
+                        Our items are one-of-<wbr>a-kind, and our stock changes regularly as items get purchased.</p>
+                    <a class="button" href="about.html">Read more about us here</a>
+                </article>
+                
+                <article>
+                    <h2>How can we be reached?</h2>
+                    <p>We can be reached by filling out our contact form. You can find it on our "Contact" page, or by clicking the link below.</p>
+                    <a class="button" href="contact.html">Contact Form</a>
+                </article>
+                
+            </div>
+            
+        </main>
+        
+        <footer>
+            <!--REQUIRED: address tag, 5/7/23-->
+            <address>
+                <p>Copyright&copy; <a href="mailto:breezyrobin929@gmail.com">Robin Johnson</a> 2023</p>
+                <p>Have questions? <a href="contact.html">Contact us here</a></p>
+            </address>
+        </footer>
+
+    </div>
+
+</body>
+</html>

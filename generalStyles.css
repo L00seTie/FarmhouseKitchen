@@ -1,0 +1,68 @@
+/*
+    STYLES FOR ALL PAGES
+    Farmhouse Kitchen Website
+    Author: Robin Johnson
+    Date: 4/30/23
+*/
+
+/* OVERALL STYLES */
+body {
+    /*REQUIRED: background color, 4/10/23*/
+    background: rgb(116, 60, 30);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    display: block;
+}
+
+#page-container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a { color: rgb(82, 14, 14); }
+
+/* BOX STYLES */
+header {
+    background-color: rgb(243, 236, 225);
+    /* REQUIRED: border, 4/10/23 */
+    border-bottom:black 3px solid;
+}
+
+main {
+    background-color: rgb(203, 188, 163);
+}
+
+footer {
+    background-color: rgb(243, 236, 225);
+    border-top:black 3px solid;
+}
+
+/* TEXT STYLES */
+h1 { font: 3em Baskerville; }
+h2 { font: bold 2em Baskerville; }
+h3 { font: italic 1.3em Georgia; }
+
+div#title-and-tag {
+    text-align: center;
+    padding: 1em 0.5em 2.5em 0.5em;
+}
+h1#title {
+    padding-bottom: 0.2em;
+}
+p#tagline {
+    font: italic 1.5em Georgia;
+}
+
+nav { font-size: 1.5em; }
+nav a { text-decoration: none; }
+
+footer {
+    font: italic 0.9em Georgia;
+    text-align: center;
+}
+
+/* TITLE STYLES */
+#title {
+    text-align: center;
+}

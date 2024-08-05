@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        CONTACT PAGE FOR THE FARMHOUSE KITCHEN WEBSITE
+        Author: Robin Johnson
+        Date: 5/4/23
+    -->
+
+    <!--REQUIRED: metadata - title, 4/10/23-->
+    <meta name="title" content="Farmhouse Kitchen: Contact Page">
+    <!--REQUIRED: metadata - viewport, 4/10/23-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--REQUIRED: metadata - keywords, 4/10/23-->
+    <meta name="keywords" content="antiques, kitchenware">
+    <!--REQUIRED: metadata - description, 4/10/23-->
+    <meta name="description" content="page containing a contact form 
+                                      for the user to send a message 
+                                      to Farmhouse Kitchen">
+    <!--REQUIRED: metadata - author, 4/10/23-->
+    <meta name="author" content="Robin Johnson">
+    <meta charset="UTF-8">
+    
+    <!--REQUIRED: reset styles, 4/10/23-->
+    <link rel="stylesheet" href="resetSS.css">
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="navStyles.css">
+    <link rel="stylesheet" href="contactSS.css">
+    <title>Farmhouse Kitchen: Contact</title>
+</head>
+
+<body>
+    <div id="page-container">
+        
+        <header>
+            <div id="title-and-tag">
+                <h1 id="title">Farmhouse Kitchen</h1>
+                <p id="tagline">"Teapots, Trinkets, and Treasures from our Rural Past"</p>
+            </div>
+            
+            <div class="dropdown-menu">
+                <nav>
+                    <button class="dropdown-button"><img src="Images/menu_button.png" alt="Open navigation menu"></button>
+                    <ul class="dropdown-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="antiques.html">Antiques</a></li>
+                        <li id="image-item"><img id="teapot" src="Images/Logo.png" alt="a teapot"></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        
+
+        <main>
+
+            <div id="contact-form-area">
+                <!-- REQUIRED: form, 5/4/23 -->
+                <form method="post">
+                    <!-- REQUIRED: field set, 5/4/23 -->
+                    <fieldset>
+                        <!-- REQUIRED: legend, 5/4/23 -->
+                        <legend><h2>Contact us</h2></legend>
+
+                        <div class="input-group">
+                            <!-- REQUIRED: field label, 5/4/23 -->
+                            <label for="name">Your name</label>
+                            <!-- REQUIRED: input box (1), data type (1) placeholder, maxlength, required, 5/4/23 -->
+                            <input type="text" id="name" name="name" placeholder="First and Last name" maxlength="40" required>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="email">Your email address</label>
+                            <!-- REQUIRED: input box (2), data type (2) 5/4/23 -->
+                            <input type="email" id="email" name="email" placeholder="yourEmail@email.com" maxlength="50" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="subject">The subject of your email</label>
+                            <!-- REQUIRED: input box (3), 5/4/23 -->
+                            <input type="text" id="subject" name="subject" placeholder="Type your subject here" maxlength="100">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">Your message</label>
+                            <textarea name="message" id="message" placeholder="Type your message here" maxlength="2000" required></textarea>
+                        </div>
+                        
+                        <div class="input-group" id="button-group">
+                            <!-- REQUIRED: submit and reset buttons, 5/4/23 -->
+                            <button type="submit" id="submit-button">Send Message</button>
+                            <button type="reset" id="reset-button">Clear all</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+            
+        </main>
+        
+
+        <footer>
+            <address>
+                <p>Copyright&copy; <a href="mailto:breezyrobin929@gmail.com">Robin Johnson</a> 2023</p>
+                <p>Have questions? <a href="contact.html">Contact us here</a></p>
+            </address>
+        </footer>
+
+    </div>
+
+</body>
+</html>

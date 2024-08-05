@@ -1,0 +1,68 @@
+/*
+    STYLES FOR THE CONTACT PAGE
+    Farmhouse Kitchen Website
+    Author: Robin Johnson
+    Date: 4/30/23
+*/
+
+/* FORM AREA STYLES */
+div#contact-form-area {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+legend {
+    text-align: center;
+    padding: 0.5em 0em 0.5em 0em;
+}
+legend h2 {
+    font-weight: lighter;
+}
+
+
+/* INPUT BOX STYLES */
+input, textarea {
+    display: block;
+    width: 90%;
+    margin: 1em 0em;
+    font: 1em Georgia;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 0.5em;
+}
+
+textarea { height: 8em; }
+
+input:focus, textarea:focus {
+    background-color: rgb(255, 255, 216);
+}
+
+/* BUTTON STYLES */
+button#submit-button, button#reset-button {
+    border: 2px solid black;
+    margin: 0.5em;
+    border-radius: 5px;
+    font: 1em sans-serif;
+}
+
+div#button-group {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+button#submit-button {
+    background-color: rgb(175, 235, 151);
+    padding: 0.8em;
+}
+button#submit-button:hover {
+    background-color: rgb(140, 201, 116);
+}
+
+button#reset-button {
+    background-color: rgb(218, 218, 218);
+    padding: 0.5em;
+}
+button#reset-button:hover {
+background-color: rgb(162, 162, 162);
+}

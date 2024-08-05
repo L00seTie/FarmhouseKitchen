@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        ABOUT PAGE FOR THE FARMHOUSE KITCHEN WEBSITE
+        Author: Robin Johnson
+        Date: 5/4/23
+    -->
+
+    <!--REQUIRED: metadata - title, 4/10/23-->
+    <meta name="title" content="Farmhouse Kitchen: About Page">
+    <!--REQUIRED: metadata - viewport, 4/10/23-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--REQUIRED: metadata - keywords, 4/10/23-->
+    <meta name="keywords" content="antiques, kitchenware">
+    <!--REQUIRED: metadata - description, 4/10/23-->
+    <meta name="description" content="page with information about Farmhouse Kitchen's proprietor, Mary">
+    <!--REQUIRED: metadata - author, 4/10/23-->
+    <meta name="author" content="Robin Johnson">
+    <meta charset="UTF-8">
+    
+    <!--REQUIRED: reset styles, 4/10/23-->
+    <link rel="stylesheet" href="resetSS.css">
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="navStyles.css">
+    <link rel="stylesheet" href="AboutSS.css">
+    <title>Farmhouse Kitchen: About</title>
+</head>
+
+<body>
+    <div id="page-container">
+        
+        <header>
+            <div id="title-and-tag">
+                <h1 id="title">Farmhouse Kitchen</h1>
+                <p id="tagline">"Teapots, Trinkets, and Treasures from our Rural Past"</p>
+            </div>
+            
+            <div class="dropdown-menu">
+                <nav>
+                    <button class="dropdown-button"><img src="Images/menu_button.png" alt="Open navigation menu"></button>
+                    <ul class="dropdown-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="antiques.html">Antiques</a></li>
+                        <li id="image-item"><img id="teapot" src="Images/Logo.png" alt="a teapot"></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+        
+        <main>
+
+            <div class="about-section" id="bio-section">
+                <img id="portrait" src="Images/Mary.jpg" alt="a photo of Mary, the owner">
+                <div id="bio-text">
+                    <h2>About Mary</h2>
+                    <p id="bio-paragraph">
+                        Always interested in unique items at a moderate price, Farmhouse Kitchen’s proprietor, Mary
+                        Johnson, seeks them out in travels around Arizona and elsewhere. Retirement from active teaching has
+                        allowed her to pursue this long-desired dream, and she hopes her customers also share her
+                        enthusiasm—not for living in the past but living with the memories, visions and charm of a simpler time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <!--REQUIRED: video, 5/7/23-->
+                <video controls muted src="Images/video.MOV"></video>
+                <!--REQUIRED: text-level element (abbr) (5/5), 5/7/23-->
+                <p>A peaceful summer day in <abbr title="Arizona">AZ</abbr>, where Mary lives</p>
+            </div>
+
+            <div class="about-section">
+                <h2>Learn more about Mary in her blog, "<a href="https://athomeinholbrook.wordpress.com/about/">At Home in Holbrook</a>"</h2>
+                <!--REQUIRED: blockquote tag, 5/7/23-->
+                <blockquote cite="https://athomeinholbrook.wordpress.com/about/">
+                    "Teacher, writer, and international missionary Mary Johnson has settled down at last with her husband, Jeff, 
+                    in Holbrook, Arizona. In this tiny town, which served as the real life inspiration for the popular animated 
+                    film, Cars, she keeps busy with writing, hospitality, gardening, and being active at Peace Lutheran Church, 
+                    where Jeff is the pastor. In this blog, she tells stories of small town life, work, and ministry."
+                </blockquote>
+            </div>
+
+        </main>
+        
+        <footer>
+            <address>
+                <p>Copyright&copy; <a href="mailto:breezyrobin929@gmail.com">Robin Johnson</a> 2023</p>
+                <p>Have questions? <a href="contact.html">Contact us here</a></p>
+            </address>
+        </footer>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+/*
+ABOUT PAGE STYLES
+Farmhouse Kitchen Website
+Author: Robin Johnson
+Date: 5/7/23
+*/
+
+/* OVERALL PAGE LAYOUT */
+div.about-section {
+    padding-top: 3em;
+    width: 70%;
+    margin: 0px auto;
+}
+
+
+/* "ABOUT MARY" SECTION */
+/* REQUIRED: pseudo-element, 5/6/23 */
+#bio-paragraph::first-letter {
+    font-size: 1.5em;
+}
+
+#bio-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* REQUIRED: advanced CSS styling
+of image (rounded corners), 5/7/23 */
+img#portrait {
+    width: 250px;
+    border-radius: 20px;
+    margin-bottom: 2em;
+    border: 3px solid black;
+}
+
+
+/* VIDEO SECTION */
+video {
+    width: 100%;
+}
+
+
+/* "LEARN MORE" SECTION */
+blockquote {
+    font-style: italic;
+    color: rgb(104, 89, 77);
+}

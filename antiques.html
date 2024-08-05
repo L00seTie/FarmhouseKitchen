@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        ANTIQUES PAGE FOR THE FARMHOUSE KITCHEN WEBSITE
+        Author: Robin Johnson
+        Date: 5/4/23
+    -->
+
+    <!--REQUIRED: metadata - title, 4/10/23-->
+    <meta name="title" content="Farmhouse Kitchen: Antiques Page">
+    <!--REQUIRED: metadata - viewport, 4/10/23-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--REQUIRED: metadata - keywords, 4/10/23-->
+    <meta name="keywords" content="antiques, kitchenware">
+    <!--REQUIRED: metadata - description, 4/10/23-->
+    <meta name="description" content="page showing the products 
+                                      Farmhouse Kitchen currently 
+                                      has for sale">
+    <!--REQUIRED: metadata - author, 4/10/23-->
+    <meta name="author" content="Robin Johnson">
+    <meta charset="UTF-8">
+    
+    <!--REQUIRED: reset styles, 4/10/23-->
+    <link rel="stylesheet" href="resetSS.css">
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="navStyles.css">
+    <link rel="stylesheet" href="AntiquesSS.css">
+    <title>Farmhouse Kitchen: Antiques</title>
+</head>
+
+<body>
+    <div id="page-container">
+        
+        <header>
+            <div id="title-and-tag">
+                <h1 id="title">Farmhouse Kitchen</h1>
+                <p id="tagline">"Teapots, Trinkets, and Treasures from our Rural Past"</p>
+            </div>
+            
+            <div class="dropdown-menu">
+                <nav>
+                    <button class="dropdown-button"><img src="Images/menu_button.png" alt="Open navigation menu"></button>
+                    <ul class="dropdown-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="antiques.html">Antiques</a></li>
+                        <li id="image-item"><img id="teapot" src="Images/Logo.png" alt="a teapot"></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+        
+        <main>
+                <h2>Antiques</h2>
+            
+            <!-- BEGIN PRODUCT SECTION -->
+            <div class="antiques-section" id="product-flex-area">
+                <!--REQUIRED: figure and figcaption, 5/7/23-->
+                <figure>
+                    <!--REQUIRED: image (1/5), 5/7/23-->
+                    <img src="Images/product2.jpg" alt="a green, transluscent sundae bowl">
+                    <figcaption>Sundae Bowl: $3</figcaption>
+                </figure>
+                <figure>
+                    <!--REQUIRED: image (2/5), 5/7/23-->
+                    <img src="Images/product3.jpg" alt="a simple glass teapot">
+                    <figcaption>Glass Teapot: $5</figcaption>
+                </figure>
+                <figure>
+                    <!--REQUIRED: image (3/5), 5/7/23-->
+                    <img src="Images/product4.jpg" alt="a white teacup and saucer">
+                    <figcaption>Teacup and Saucer: $4</figcaption>
+                </figure>
+                <figure>
+                    <!--REQUIRED: image (4/5), 5/7/23-->
+                    <img src="Images/product5.jpg" alt="a Christmas-themed plate">
+                    <figcaption>Christmas Plate: $3</figcaption>
+                </figure>
+                <figure>
+                    <!--REQUIRED: image (5/5), 5/7/23-->
+                    <img src="Images/product6.jpg" alt="a white plate with bumpy edges">
+                    <figcaption>Dainty Plate: $5</figcaption>
+                </figure>
+                <figure>
+                    <img src="Images/product7.jpg" alt="a small garden gnome with a red hat and yellow coat">
+                    <figcaption>Gnome: $2</figcaption>
+                </figure>
+            </div>
+            <!-- END PRODUCT SECTION -->
+            <div class="antiques-section">
+                <h2>About our antiques</h2>
+                <p id="antiques-blurb">
+                    Sometimes antiques and sometimes replicas, our products are one-of-a-kind items hand
+                    selected for those who enjoy reminders of country life. Whether it is an antique teapot, a handmade
+                    quilt, or a set of rural-themed Christmas plates, the smiles and satisfaction of our customers mean the
+                    most to us. You will rarely see more than a half dozen items advertised at any one time, but they will be
+                    <!--REQUIRED: text-level element (em) (2/5), 5/7/23-->
+                    <em>truly special</em>!
+                </p>
+            </div>
+            
+            <div class="antiques-section">
+                <!--REQUIRED: text-level element (strong) (3/5), 5/7/23-->
+                <strong class="disclaimer">Shipping is not included in the shown prices. See the table below for standard shipping prices.</strong>
+                <!--REQUIRED: table, 5/6/23-->
+                <table>
+                    <caption>Standard Shipping Prices (Rounded Up)</caption>
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Starting Price</th>
+                            <th>Ship time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Priority Mail Express</td>
+                            <td>$30</td>
+                            <td>1-2 days</td>
+                        </tr>
+                        <tr>
+                            <td>Priority Mail</td>
+                            <td>$10</td>
+                            <td>1-3 days</td>
+                        </tr>
+                        <tr>
+                            <td>First-Class Mail</td>
+                            <td>$1</td>
+                            <td>1-5 days</td>
+                        </tr>
+                        <tr>
+                            <td>First-Class Package Service</td>
+                            <td>$5</td>
+                            <td>2-5 days</td>
+                        </tr>
+                        <tr>
+                            <td>USPS Retail Ground</td>
+                            <td>$9</td>
+                            <td>2-5 days</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--REQUIRED: text-level element (cite) (4/5), 5/7/23-->
+                <p><cite class="disclaimer">Data for table from the 
+                    <a href="https://www.usps.com/ship/mail-shipping-services.htm">
+                        USPS official website</a>.</cite></p>
+            </div>
+            
+        </main>
+        
+        <footer>
+            <address>
+                <p>Copyright&copy; <a href="mailto:breezyrobin929@gmail.com">Robin Johnson</a> 2023</p>
+                <p>Have questions? <a href="contact.html">Contact us here</a></p>
+            </address>
+        </footer>
+
+    </div>
+
+</body>
+</html>
